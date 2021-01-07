@@ -1,11 +1,13 @@
 body > div {
     display: inline-block;
     width: 800px;
+    margin-top: 20px;
     margin-left: calc((100% - 800px) / 2);
-    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
 }
 
-div > header {
+header {
     display: inline-block;
     width: 100%;
 }
@@ -13,34 +15,50 @@ div > header {
 header > img {
     display: inline-block;
     float: left;
+    height: 50px;
 }
 
-header > nav {
+nav {
     display: inline-block;
     float: right;
 }
 
-nav > a {
+a {
     display: inline-block;
 }
 
-div > main {
+main {
     display: inline-block;
     width: 100%;
+    margin-top: 25px;
 }
 
 main > div {
     display: inline-block;
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    color: #9e9e9e;
+    margin-top: 40px;
 }
 
-div > h1 {
+h1 {
     display: inline-block;
+    width: 100%;
+    font-size: 70px;
+    margin: 0;
 }
 
-div > p {
+p {
     display: inline-block;
+    width: 100%;
+    font-size: 24px;
+    margin: 0;
 }
 
 main > img {
     display: inline-block;
+    width: 45%;
+    float: left;
+    margin-left: 10%;
 }
